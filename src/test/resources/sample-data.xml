@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+<table name="role">
+    <column>role_id</column>
+    <row>
+         <value description="role_id">ROLE_ADMIN</value>
+    </row>
+    <row>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="role_id">ROLE_POST</value>
+    </row>
+</table>
+<table name="user">
+    <column>user_id</column>
+    <column>password</column>
+    <column>role_id</column>
+    <row>
+         <value description="user_id">admin</value>
+         <value description="password">$2a$10$cSuS0MDOxXVKfOnQjkMepeLoVMgehSy.izTIvnqtC0EmE/khQKGHe</value>
+         <value description="role_id">ROLE_ADMIN</value>
+    </row>
+    <row>
+         <value description="user_id">jupark</value>
+         <value description="password">$2a$10$dNonkUsCSYB3wmaBv3pks.gKRXQcME.Ie/VwUIVhNZZRge9Xl/UvS</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">travel</value>
+         <value description="password">$2a$10$ToPT1F4FLGYwGWNmRPZZu.hSIeZ1208UzEh.WjUXUJ6h5W3/drh.W</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">soccer</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user1</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user2</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user3</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user4</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user5</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user6</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user7</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user8</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user9</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user10</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user11</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user12</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user13</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user14</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user15</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user16</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user17</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user18</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">user19</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">goal</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">madrid</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+    <row>
+         <value description="user_id">test</value>
+         <value description="password">$2a$10$7nV8dTNfWzBKBHCUgeNh/urLtqg4sPOqwgPqrSnIi7dmXkIirorkm</value>
+         <value description="role_id">ROLE_USER</value>
+    </row>
+</table>
+<table name="member">
+    <column>member_id</column>
+    <column>username</column>
+    <column>gender</column>
+    <column>email</column>
+    <column>user_id</column>
+    <column>phone</column>
+    <row>
+         <value description="member_id">tae01</value>
+         <value description="username">&#53468;&#50864;</value>
+         <value description="gender">M</value>
+         <value description="email">qwe@cd.com</value>
+         <value description="user_id">admin</value>
+         <value description="phone">010-1234-4321</value>
+    </row>
+    <row>
+         <value description="member_id">tae02</value>
+         <value description="username">&#52632;&#49340;</value>
+         <value description="gender">M</value>
+         <value description="email">123@12.123</value>
+         <value description="user_id">admin</value>
+         <value description="phone">010-1234-4322</value>
+    </row>
+    <row>
+         <value description="member_id">tae03</value>
+         <value description="username">&#48393;&#49885;</value>
+         <value description="gender">M</value>
+         <value description="email">123@12.124</value>
+         <value description="user_id">admin</value>
+         <value description="phone">010-1234-4323</value>
+    </row>
+    <row>
+         <value description="member_id">tae04</value>
+         <value description="username">&#47564;&#52632;</value>
+         <value description="gender">M</value>
+         <value description="email">123@12.125</value>
+         <value description="user_id">admin</value>
+         <value description="phone">010-1234-4324</value>
+    </row>
+    <row>
+         <value description="member_id">tae05</value>
+         <value description="username">&#47564;&#47564;</value>
+         <value description="gender">M</value>
+         <value description="email">123@12.126</value>
+         <value description="user_id">admin</value>
+         <value description="phone">010-1234-4325</value>
+    </row>
+</table>
+<table name="post">
+    <column>bno</column>
+    <column>post</column>
+    <column>reg_date</column>
+    <column>title</column>
+    <column>member_id</column>
+    <row>
+         <value description="bno">1</value>
+         <value description="post">hello sir</value>
+         <null />
+         <value description="title">hi</value>
+         <value description="member_id">tae01</value>
+    </row>
+    <row>
+         <value description="bno">2</value>
+         <value description="post">my name is taewoo</value>
+         <null />
+         <value description="title">who r u?</value>
+         <value description="member_id">tae02</value>
+    </row>
+    <row>
+         <value description="bno">3</value>
+         <value description="post">how r u?</value>
+         <null />
+         <value description="title">good morning</value>
+         <value description="member_id">tae03</value>
+    </row>
+</table>
+</dataset>

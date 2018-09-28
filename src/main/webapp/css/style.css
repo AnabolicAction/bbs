@@ -1,0 +1,24 @@
+.read{
+	border: 1px solid #d2d6de;
+	padding: 1%;
+	background-color: white;
+	min-height: 300px;
+}
+
+.box-body th,td{
+	text-align: center;
+}
+
+.search{
+	width: 15%;
+	display: inline;
+}
+
+#currentPage{
+	background-color: #3c8dbc;
+	color: white;
+}
+
+.error{
+	color: red;
+}
