@@ -3,5 +3,6 @@ package com.bbs.repository;
 import com.bbs.domain.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface PostRepository extends JpaRepository<Post,String> { //DB 연동
+public interface PostRepository extends JpaRepository<Post, Integer> {
+
 }

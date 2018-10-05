@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
@@ -18,15 +19,15 @@ public class Comment {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @Column(name = "comment_id", length = 10)
-    private int CommentId;
+    @Column(name = "cno", length = 10)
+    private int cno;
 
     @Column(name = "comment")
-    private String comment;
+    private String content;
 
     @ManyToOne
-    @JoinColumn(name="member_id", nullable=false) //FK
-    private Member member;
+    @JoinColumn(name = "user_id",nullable = false)
+    private User user;
 
     @ManyToOne
     @JoinColumn(name="bno", nullable=false) //FK
@@ -35,6 +36,10 @@ public class Comment {
     @Column(name = "reg_date")
     @CreationTimestamp
     private Timestamp regDate;
+
+    @Column(name = "up_date")
+    @UpdateTimestamp
+    private Timestamp upDate;
 
 //    @CreationTimestamp
 //    private Timestamp regDate;

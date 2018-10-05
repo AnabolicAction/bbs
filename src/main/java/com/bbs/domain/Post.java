@@ -4,9 +4,11 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Collection;
 import java.util.List;
@@ -22,6 +24,7 @@ public class Post {
 
     @Id
     @Column(name = "bno", length = 10) //Pk
+    @GeneratedValue(strategy = GenerationType.AUTO) //자동 유니크하게 increase
     private int bno;
 
 
@@ -32,15 +35,31 @@ public class Post {
     private String post;
 
     @Column(name = "hit")
-    private String hit;
+    private int hit;
 
     @Column(name = "reg_date")
     @CreationTimestamp
     private Timestamp regDate;
 
+    @Column(name = "up_date")
+    @UpdateTimestamp
+    private Timestamp upDate;
+
     @ManyToOne
-    @JoinColumn(name="member_id", nullable=false) //FK
-    private Member member;
+    @JoinColumn(name="user_id") //FK
+    private User user;
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public int getHit() {
+        return this.hit;
+    }
+
+    public void setHit(int i) {
+        this.hit=i;
+    }
 
 //    @OneToMany
 //    @JoinColumn(name="comment_id", nullable=false) //FK

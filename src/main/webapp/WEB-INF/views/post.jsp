@@ -4,29 +4,26 @@
 index!!!
 
 
-<a href="/index">index</a>
+<h3><a href="/index">Home</a></h3>
 <html>
 <head>
-<title> 게시글 작성</title>
+    <title> 게시글 작성</title>
 </head>
 
 <body>
 <h3>게시글 작성 </h3>
 <div style="padding: 30px;">
-    <form action="/post" method="get">
+    <form action="/writePost" method="post">
+        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
         <div class="form-group">
             <label>제목</label>
-            <input type="text" name="subject" class="form-control">
-        </div>
-        <div class="form-group">
-            <label>작성자</label>
-            <input type="text" name="writer" class="form-control">
+            <input type="text" name="title" class="form-control">
         </div>
         <div class="form-group">
             <label>내용</label>
-            <textarea name="content" class="form-control" rows="5"></textarea>
+            <textarea name="post" class="form-control" rows="5"></textarea>
         </div>
-        <button type="submit" class="btn btn-default">작성</button>
+        <input type="submit" class="btn btn-default" value="작성"/>
     </form>
 </div>
 </body>

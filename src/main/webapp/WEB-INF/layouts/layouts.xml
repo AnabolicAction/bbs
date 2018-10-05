@@ -20,4 +20,12 @@
 		<put-attribute name="title" value="BBS Project" />
 		<put-attribute name="body" value="/WEB-INF/views/post.jsp" />
 	</definition>
+	<definition extends="tilesbase" name="postView">
+		<put-attribute name="title" value="BBS Project" />
+		<put-attribute name="body" value="/WEB-INF/views/postView.jsp" />
+	</definition>
+	<definition extends="tilesbase" name="postModify">
+		<put-attribute name="title" value="BBS Project" />
+		<put-attribute name="body" value="/WEB-INF/views/postModify.jsp" />
+	</definition>
 </tiles-definitions>

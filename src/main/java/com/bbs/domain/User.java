@@ -20,16 +20,27 @@ public class User implements UserDetails {
   private static final long serialVersionUID = 1L;
 
   @Id
-  @Column(name="user_id", length=10) //pk
+  @Column(name="user_id", length=10)
   private String id;
 
   @ManyToOne
-  @JoinColumn(name="role_id", nullable=false) //FK
+  @JoinColumn(name="role_id", nullable=false)
   private Role role;
 
   @Column(nullable=false, length=100)
   private String password;
 
+  @Column(name = "username")
+  private String userName;
+
+  @Column(name = "phone")
+  private String phone;
+
+  @Column(name = "gender")
+  private String gender;
+
+  @Column(name = "email")
+  private String email;
 
   @Override
   public String getUsername() {
