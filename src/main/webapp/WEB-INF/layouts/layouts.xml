@@ -28,4 +28,8 @@
 		<put-attribute name="title" value="BBS Project" />
 		<put-attribute name="body" value="/WEB-INF/views/postModify.jsp" />
 	</definition>
+	<definition extends="tilesbase" name="commentS">
+		<put-attribute name="title" value="BBS Project" />
+		<put-attribute name="body" value="/WEB-INF/views/commentS.jsp" />
+	</definition>
 </tiles-definitions>

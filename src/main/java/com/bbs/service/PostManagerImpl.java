@@ -61,10 +61,6 @@ public class PostManagerImpl implements PostManager {
     @Override
     public void postDelete(Post post) { //삭제
         postRepository.delete(post);
-       // postRepositoryImpl.deletePost(post);
-        //transactionrequiredexception executing an update/delete query hibernate
-
-
 
     }
 
