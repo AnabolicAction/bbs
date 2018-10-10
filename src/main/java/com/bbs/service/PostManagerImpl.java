@@ -16,7 +16,6 @@ public class PostManagerImpl implements PostManager {
 
     @Override //리스트 뿌리기
     public List<Post> boardList() {
-//        List<Post> postVOArrayList = postRepository.findAll();
         return postRepository.findAll();
     }
 

@@ -12,9 +12,9 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 
-public class CommnetRepositoryImpl extends QueryDslRepositorySupport implements CommentRepositoryCustom {
+public class CommentRepositoryImpl extends QueryDslRepositorySupport implements CommentRepositoryCustom {
 
-    public CommnetRepositoryImpl() {
+    public CommentRepositoryImpl() {
         super(Post.class);
     }
 
@@ -27,6 +27,14 @@ public class CommnetRepositoryImpl extends QueryDslRepositorySupport implements 
         query.orderBy(comment.regDate.desc());
         List<Comment> comments = query.list(comment);
         return comments;
+    }
+
+
+    public List<Comment> getCommentBno(int bno) { //해당되는 bno를 가져와서 담는다
+        QComment comment = QComment.comment;
+        JPQLQuery query = from(comment).where(comment.post.bno.eq(bno));
+        List<Comment> result = query.list(comment);
+        return result;
     }
 
 

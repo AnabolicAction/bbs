@@ -49,6 +49,10 @@ public class Post {
     @JoinColumn(name="user_id") //FK
     private User user;
 
+//    @OneToMany
+//    @JoinColumn(name = "cno")
+//    private List<Comment> comment;
+
     public void setUser(User user) {
         this.user = user;
     }

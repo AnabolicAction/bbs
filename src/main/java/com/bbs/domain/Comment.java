@@ -20,10 +20,35 @@ public class Comment {
 
     @Id
     @Column(name = "cno", length = 10)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int cno;
 
     @Column(name = "content")
     private String content;
+
+    public String getContent() {
+        return content;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Post getPost() {
+        return post;
+    }
+
+    public void setPost(Post post) {
+        this.post = post;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
 
     @ManyToOne
     @JoinColumn(name = "user_id",nullable = false)
